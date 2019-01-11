@@ -11,5 +11,6 @@ Pod::Spec.new do |s|
   s.source_files  = Dir['PLMenuBar/*']
   s.resources = "PLMenuBar/Resources/*.png"
   s.requires_arc = true
+  s.exclude_files = "PLMenuBar/Info.plist"
   
 end
